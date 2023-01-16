@@ -8,6 +8,8 @@ Web Client library to get data from an API endpoint.
 ---
 ### Usage
 ```Swift
+import WebClient
+
 struct Album: Codable {
     var userId: Int
     var id:     Int
